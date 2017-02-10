@@ -73,7 +73,7 @@
                     let isFile = false;
                     while (!isFile && files.length > 0) {
                         let file = files.splice(0, 1)[0];
-                        if (fs.statSync(`${watchfolder}/${file}`).isFile()) {
+                        if (file.substr(-3).toLowerCase() === 'mp4' && fs.statSync(`${watchfolder}/${file}`).isFile()) {
                             result(file);
                             isFile = true;
                         }
