@@ -6,3 +6,4 @@ watchfolder
 queue
 credentials.json
 .idea
+*.log
