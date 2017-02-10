@@ -1,0 +1,23 @@
+{
+  "name": "node-yt-upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node upload.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "google-cli-auth": "0.0.1",
+    "node-youtube-resumable-upload": "^0.2.1",
+    "progressbar": "^1.1.1",
+    "winston": "^2.3.1",
+    "yargs": "^6.6.0"
+  },
+  "devDependencies": {
+    "segfault-handler": "^1.0.0"
+  }
+}
